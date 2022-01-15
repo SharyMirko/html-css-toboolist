@@ -44,17 +44,78 @@ main {
 
 .menu button {
     border-radius: 5px;
-    border: none;
+    border: solid 1px black;
     margin-left: 2%;
 }
 
 .select {
     background-color: rgb(57, 108, 175);
     border: none;
+    color: white;
+}
+
+.unselect {
+    background-color: transparent;
+}
+
+.blu {
+    background-color: turquoise;
+    border-radius: 15%;
+    border: none;
+    padding: 1.5%;
+    margin-left: 2%;
+    color: white;
+    font-size: 8px;
+}
+
+.purple {
+    background-color: purple;
+    border-radius: 15%;
+    border: none;
+    padding: 1.5%;
+    margin-left: 2%;
+    color: white;
+    font-size: 8px;
+}
+
+.green {
+    background-color: green;
+    border-radius: 15%;
+    border: none;
+    padding: 1.5%;
+    margin-left: 2%;
+    color: white;
+    font-size: 8px;
+}
+
+.orange {
+    background-color: orange;
+    border-radius: 15%;
+    border: none;
+    padding: 1.5%;
+    margin-left: 2%;
+    color: white;
+    font-size: 8px;
+}
+
+.pink {
+    background-color: pink;
+    border-radius: 15%;
+    border: none;
+    padding: 1.5%;
+    margin-left: 2%;
+    color: white;
+    font-size: 8px;
 }
 
 .list ol {
     list-style: none;
+    padding-bottom: 3%;
+    padding-top: 3%;
+}
+
+.list li {
+    padding-top: 2%;
 }
 
 .list span {
